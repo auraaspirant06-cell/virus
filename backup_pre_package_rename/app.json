@@ -1,0 +1,54 @@
+{
+    "name": "VIRUS MUSIC BOT",
+    "description": "Next Generation Telegram Music Platform powered by Pyrogram and PyTgCalls. Maintained by Aspirant.",
+    "logo": "https://te.legra.ph/file/3e40a408286d4eda24191.jpg",
+    "keywords": ["python3", "telegram", "bot", "music-bot", "virus-music"],
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Telegram API ID from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Telegram API HASH from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Telegram Bot Token from @BotFather",
+            "value": "",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "MongoDB connection string from https://cloud.mongodb.com",
+            "value": "",
+            "required": true
+        },
+        "LOGGER_ID": {
+            "description": "Log group ID on Telegram where bot is an administrator",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Telegram user ID of the Bot Owner (Aspirant)",
+            "value": "",
+            "required": true
+        },
+        "SESSION": {
+            "description": "Pyrogram string session for the assistant userbot",
+            "value": "",
+            "required": true
+        },
+        "SUPPORT_CHAT": {
+            "description": "Support Group URL",
+            "value": "https://t.me/+qqghU-fZtUw4ODQ9",
+            "required": false
+        },
+        "SUPPORT_CHANNEL": {
+            "description": "Updates Channel URL",
+            "value": "https://t.me/kuchupuchuupdates",
+            "required": false
+        }
+    }
+}
